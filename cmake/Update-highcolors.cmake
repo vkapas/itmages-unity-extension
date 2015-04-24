@@ -1,5 +1,5 @@
 
-SET (FOLDER "/usr/share/icons/highcolor")
+SET (FOLDER "/usr/share/icons/hicolor")
 execute_process (COMMAND test -w ${FOLDER} RESULT_VARIABLE RERM_OK)
 message ("Hicolors permissions: ${FOLDER} ${PERM_OK}")
 
@@ -8,7 +8,7 @@ SET (UPDATER_PROGREMM "gtk-update-icon-cache")
 
 IF (${HAS_UPDATER})
 
-    SET (UPDATER_PROGRAMM "update-icon-cache")
+    SET (UPDATER_PROGRAMM "update-icon-caches")
     execute_process (
                         COMMAND test -f "/usr/bin/${UPDATER_PROGRAMM}"
                         RESUL_VARIABLE HAS_UPDATER
