@@ -16,4 +16,4 @@ This installation new schema to your system
 glib-compile-schemas /usr/share/glib-2.0/schemas 
 
 for installationg new icons to your system
-update-icon-cache /usr/share/icons/highcolor
+update-icon-caches /usr/share/icons/hicolor
